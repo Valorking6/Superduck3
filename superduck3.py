@@ -62,4 +62,4 @@ def launch_interface():
     iface.launch()
 
 # Run the Gradio interface
-launch_interface()
+launch_interface(inbrowser=True)
