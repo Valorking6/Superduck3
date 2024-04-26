@@ -47,7 +47,7 @@ def launch_interface():
             gr.Textbox(label="API Key", placeholder="Enter your Stability API key"),
             gr.Textbox(label="Prompt", placeholder="Enter your prompt"),
             gr.Dropdown(label="Aspect Ratio", choices=["1:1", "16:9", "21:9", "2:3", "3:2", "4:5", "5:4", "9:16", "9:21"], value="1:1"),
-            gr.Dropdown(label="Mode", choices=["text-to-image", "image-to-image"], value="text-to-image"),
+           gr.Dropdown(label="Mode", choices=["text-to-image"], value="text-to-image"),
             gr.Textbox(label="Negative Prompt", placeholder="Enter your negative prompt"),
             gr.Dropdown(label="Model", choices=["sd3", "sd3-turbo"], value="sd3"),
             gr.Number(label="Seed"),
